@@ -6,7 +6,7 @@ pipeline {
         ECR_REPO = "538747156075.dkr.ecr.us-east-1.amazonaws.com/snapdfy-invision"
         CONTAINER_NAME = "snapdfy-invision"
         REGION = "us-east-1"
-        APP_SERVER = "ubuntu@98.95.195.110"
+        APP_SERVER = "ubuntu@IP"
     }
 
     triggers {
