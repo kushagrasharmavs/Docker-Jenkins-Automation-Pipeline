@@ -40,7 +40,7 @@ pipeline {
                 sh '''
                 aws ecr get-login-password --region $REGION | docker login \
                 --username AWS \
-                --password-stdin 538747156075.dkr.ecr.us-east-1.amazonaws.com
+                --password-stdin 5387xxxxxxx.dkr.ecr.us-east-1.amazonaws.com
 
                 docker push $ECR_REPO:latest
                 '''
