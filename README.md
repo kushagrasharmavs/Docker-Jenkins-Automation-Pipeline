@@ -25,7 +25,7 @@ The application is served through Nginx with HTTPS enabled (Let’s Encrypt), ma
 
 GitHub → Jenkins → Docker Build → AWS ECR → EC2 (Docker) → Nginx → Live Domain
 
-
+-->
 
 🛠️ Tech Stack
 
